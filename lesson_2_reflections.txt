@@ -20,6 +20,11 @@ Branches will be helpful if we want to create a new version and keep the previou
 Using a new branch we can always use our master branch without needing to remember the commit ID where we started to modify our project.
 
 
+*How do the diagrams help you visualize the branch structure?
+It is specially helpful  when we checkout a previous commit and we make some changes and commit to them, we will be in a new branch without any name, so if we go back to other branch, master,... those last changes will be lost.
+We can easily see this on a diagram, and if we don't want to lose those commits we can create a new branch (git branch -b [new-branch-name])
+
+
 
 COMMIT MESSAGES
 A commit messages consists of three distinct parts separated by a blank line: the title, an optional body and an optional footer. 
