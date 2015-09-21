@@ -1,12 +1,25 @@
-What happens when you initialize a repository? Why do you need to do it?
+*What happens when you initialize a repository? Why do you need to do it?
+
 We can initialize a repository with 'git init', when we do it, we get a initialized empty Git repository.
 We can check our repository status with 'git status' If we use it just after the initialization it will gives us as response that the initialized directory has became the master branch and the command gives us all the untracked files we have on the directory.
 
 We can add new files to our repository with 'git add' (git add lesson_2_reflections.txt) and we can remove any file using 'git reset' (git reset lesson_2_reflections.txt).
 
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+*How is the staging area different from the working directory and the repository? What value do you think it offers?
+
 In the staging area are all the files of which we are keeping track, it isn't a phisical directory as it is the working directory. In our working directory we can have files we are not interested on tracking, maybe some photo or some resource we won't modify, the staging area allow us to decide which files of our working directory will be controlled. 
+
+
+*How can you use the staging area to make sure you have one commit per logical change?
+Using 'get diff' we get the differences between our updated files and the ones in the staged area, so we can check the changes, we can choose one file, add it and commit, check again, choose another file,...
+
+
+*What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches will be helpful if we want to create a new version and keep the previous one, for example, some experimental version with some new feature, or if we want to make a different language version,...
+Using a new branch we can always use our master branch without needing to remember the commit ID where we started to modify our project.
+
+
 
 COMMIT MESSAGES
 A commit messages consists of three distinct parts separated by a blank line: the title, an optional body and an optional footer. 
