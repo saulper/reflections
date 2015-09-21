@@ -25,6 +25,11 @@ It is specially helpful  when we checkout a previous commit and we make some cha
 We can easily see this on a diagram, and if we don't want to lose those commits we can create a new branch (git branch -b [new-branch-name])
 
 
+*What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When we merge two branches together, the branch we are mentioning  at the command is joined to the one we are at. The merge command will compare the branches we want to join with the last common node they had, it will choose the lines according to the last modification they had on their branches.
+After merging two branches, we can delete the joined branch because all the commits are accesible from the main branch.
+
+
 
 COMMIT MESSAGES
 A commit messages consists of three distinct parts separated by a blank line: the title, an optional body and an optional footer. 
