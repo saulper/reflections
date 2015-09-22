@@ -30,6 +30,10 @@ When we merge two branches together, the branch we are mentioning  at the comman
 After merging two branches, we can delete the joined branch because all the commits are accesible from the main branch.
 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging has the advantage of not having to check all the code searching for differences. Git merges all the files and asks about conclicts.
+
+
 
 COMMIT MESSAGES
 A commit messages consists of three distinct parts separated by a blank line: the title, an optional body and an optional footer. 
